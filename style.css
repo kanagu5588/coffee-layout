@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(122, 20, 218);
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.navlinks{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(226, 43, 80);
+    left: 45%;
+    top: 15px;
+    position: absolute;
+
+}
+
+/* Section 1 */
+.click{
+    height: 664.4px;
+    background-color: rgb(24, 165, 216);
+    position: relative;
+}
+.karate{
+    height: 300px;
+    width: 30%;
+    
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.karate h1{
+    height: 40px;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 35%;
+    background-color: rgb(235, 80, 180);
+}
+.karate p{
+    height: 60px;
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 30%;
+    background-color: rgb(108, 13, 13);
+}
+.karate button{
+    padding: 15px 50px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 40%;
+    background-color: rgb(20, 6, 147);
+    cursor: pointer;
+    border-radius: 4px;    
+}
+.pic1{
+    background-color: rgb(114, 162, 127);
+    height: 350px;
+    width: 96%;
+    margin-top: 25px;
+    margin-left: 2%;
+    position: absolute;
+}
+
+/* Section 2 */
+.select{
+    height: 745px;
+    background-color: darksalmon;
+    position: relative;
+}
+.pic2{
+    height: 350px;
+    width: 35%;
+    margin-top: 25px;
+    margin-left: 50px;
+    background-color: rgb(21, 236, 204);
+    position: absolute;
+}
+.kungfu{
+    height: 300px;
+    width: 30%;
+    top: 50px;
+    left: 65%;
+    background-color: rgb(90, 226, 90);
+    position: absolute;
+}
+.kungfu h1{
+    height: 40px;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 35%;
+    background-color: gold;
+}
+.kungfu p{
+    height: 60px;
+    width: 45%;
+    margin-top: 40px;
+    margin-left: 27%;
+    background-color: deeppink;
+}
+.kungfu button{
+    padding: 15px 50px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 40%;
+    background-color: rgb(9, 72, 135);
+    
+}
+
+/* Section 3 */
+.drag{
+    height: 745px;
+    background-color: rgb(229, 122, 175);
+    position: relative;
+}
+.pic3{
+    height: 30px;
+    width: 15%;
+    background-color: deepskyblue;
+    margin-top: 10px;
+    margin-left: 45%;
+    position: absolute;
+}
+.jack{
+    height: 30px;
+    width: 10%;
+    background-color: rgb(166, 203, 64);
+    margin-top: 60px;
+    margin-left: 47.5%;
+    position: absolute;
+}
+.mouse li{
+    background-color: chartreuse;
+    margin-left: 150px;
+    height: 150px;
+    width: 150px;
+    display: inline-flex;
+    position: relative;
+    margin-top: 200px;
+    left: 5%;
+    
+    
+}
+.cpu li{
+    display: inline-flex;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(79, 32, 182);
+    margin-top: 40px;
+    margin-left: 150px;
+    position: relative;
+    left: 5%;
+}
+.monitor li{
+    display: inline-flex;
+    height: 60px;
+    width: 150px;
+    background-color: rgb(14, 97, 56);
+    margin-top: 20px;
+    margin-left: 150px;
+    position: relative;
+    left: 5%;
+}
+
+/* Section 4 */
+.copy{
+    height: 745px;
+    background-color: rgb(201, 207, 131);
+    position: relative;
+}
+.pic4{
+    height: 30px;
+    width: 15%;
+    background-color: deepskyblue;
+    margin-top: 20px;
+    margin-left: 45%;
+    position: absolute;
+}
+.copy h1{
+    height: 30px;
+    width: 10%;
+    background-color: rgb(186, 24, 124);
+    margin-top: 70px;
+    margin-left: 47.5%;
+    position: absolute;
+}
+.boxer li{
+    display: inline-flex;
+    height: 150px;
+    width: 150px;
+    margin-top: 150px;
+    background-color:crimson;
+    margin-left: 150px;
+    position: relative;
+    left: 5%;
+
+}
+.keyboard li{
+    display: inline-flex;
+    height: 30px;
+    width: 150px;
+    margin-top: 10px;
+    background-color:rgb(10, 109, 93);
+    margin-left: 150px;
+    position: relative;
+    left: 5%;
+}
+.rest li{
+    display: inline-flex;
+    height: 150px;
+    width: 150px;
+    margin-top: 100px;
+    background-color:crimson;
+    margin-left: 150px;
+    position: relative;
+    left: 5%;
+}
+.ups li{
+    display: inline-flex;
+    height: 30px;
+    width: 150px;
+    margin-top: 10px;
+    background-color:rgb(10, 109, 93);
+    margin-left: 150px;
+    position: relative;
+    left: 5%;
+}
+
+/* Section 5 */
+.paste{
+    height: 745px;
+    background-color: lightseagreen;
+    position: relative;
+}
+.pic5{
+    height: 30px;
+    width: 15%;
+    background-color: coral;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 45%;
+}
+.paste h1{
+    height: 30px;
+    width: 10%;
+    background-color: rgb(186, 24, 124);
+    margin-top: 70px;
+    margin-left: 47.5%;
+    position: absolute;
+}
+.baleno li{
+    display: inline-flex;
+    height: 150px;
+    width: 150px;
+    margin-top: 200px;
+    background-color:rgb(174, 230, 54);
+    margin-left: 150px;
+    position: relative;
+    left: 5%;
+}
+.eeco li{
+    display: inline-flex;
+    height: 150px;
+    width: 150px;
+    margin-top: 150px;
+    background-color:rgb(174, 230, 54);
+    margin-left: 150px;
+    position: relative;
+    left: 5%;
+}
+
+/* Section 6 */
+.cut{
+    height: 745px;
+    background-color:rgb(212, 189, 40);
+    position: relative;
+}
+.pic6{
+    height: 30px;
+    width: 15%;
+    background-color: deepskyblue;
+    margin-top: 20px;
+    margin-left: 45%;
+    position: absolute;
+}
+.cut h1{
+    height: 30px;
+    width: 10%;
+    background-color: rgb(186, 24, 124);
+    margin-top: 70px;
+    margin-left: 47.5%;
+    position: absolute;
+}
+.lab li{
+    display: inline-flex;
+    height: 150px;
+    width: 150px;
+    margin-top: 150px;
+    background-color:rgb(220, 20, 203);
+    margin-left: 150px;
+    position: relative;
+    left: 5%;
+
+}
+.piano li{
+    display: inline-flex;
+    height: 30px;
+    width: 150px;
+    margin-top: 10px;
+    background-color:rgb(18, 121, 133);
+    margin-left: 150px;
+    position: relative;
+    left: 5%;
+}
+.kanni li{
+    display: inline-flex;
+    height: 150px;
+    width: 150px;
+    margin-top: 100px;
+    background-color:rgb(220, 20, 203);
+    margin-left: 150px;
+    position: relative;
+    left: 5%;
+}
+.guitar li{
+    display: inline-flex;
+    height: 30px;
+    width: 150px;
+    margin-top: 10px;
+    background-color:rgb(18, 121, 133);
+    margin-left: 150px;
+    position: relative;
+    left: 5%;
+}
+
+/* Section 5 */
+.delete{
+    height: 745px;
+    background-color:mediumorchid;
+    position: relative;
+}
+.pic7{
+    height: 30px;
+    width: 15%;
+    background-color: rgb(0, 255, 98);
+    margin-top: 20px;
+    margin-left: 45%;
+    position: absolute;
+}
+.nuvo h1{
+    height: 30px;
+    width: 10%;
+    background-color: rgb(13, 229, 146);
+    margin-top: 70px;
+    margin-left: 47.5%;
+    position: absolute;
+}
+.picture{
+    height: 350px;
+    width: 35%;
+    margin-top: 200px;
+    margin-left: 50px;
+    background-color: rgb(21, 161, 236);
+    position: absolute;
+}
+.siva{
+    height: 350px;
+    width: 40%;
+    background-color: rgb(99, 10, 58);
+    top: 200px;
+    left: 55%;
+    position: relative;
+}
+.rita li{
+    
+    height: 30px;
+    width: 25%;
+    top: 100px;
+    left: 18%;
+    display: block;
+    background-color: aqua;
+    position: relative;
+    
+    margin-bottom: 20px;
+}
+.siva h2{
+    height: 30px;
+    width: 30%;
+    background-color: greenyellow;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 32%;
+}
+.rock li{
+    
+    height: 30px;
+    width: 40%;
+    
+    left: 50%;
+    display: block;
+    background-color: rgb(255, 0, 170);
+    position: relative;
+    
+    margin-bottom: 20px;
+}
+.siva button{
+    height: 40px;
+    width: 20%;
+    left: 38%;
+    position: absolute;
+    background-color: darksalmon;
+    top: 70%;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Section 8 */
+.undo{
+    height: 745px;
+    background-color:rgb(195, 94, 106);
+    position: relative;
+}
+.husky li{
+    background-color: chartreuse;
+    margin-left: 150px;
+    height: 150px;
+    width: 150px;
+    display: inline-flex;
+    position: relative;
+    margin-top: 200px;
+    left: 5%;
+    
+    
+}
+.leo li{
+    display: inline-flex;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(79, 32, 182);
+    margin-top: 40px;
+    margin-left: 150px;
+    position: relative;
+    left: 5%;
+}
+.deer li{
+    display: inline-flex;
+    height: 60px;
+    width: 150px;
+    background-color: rgb(14, 97, 56);
+    margin-top: 20px;
+    margin-left: 150px;
+    position: relative;
+    left: 5%;
+}
+.tiger{
+    border: 5px solid rgb(0, 0, 0);
+    width: 90%;
+    top: 120px;
+    left: 5%;
+    position: relative;
+}
+.lion p{
+    height: 50px;
+    width: 60%;
+    background-color: rgb(14, 155, 173);
+    top: 90%;
+    left: 20%;
+    position: absolute;
+    border-radius: 5px;
+
+}
